@@ -1,7 +1,34 @@
-.visualArea{
-    background-image: url($url + "banner.png");
-    color: #fff;
-        height: 766px;
-        display: block;
-        position: relative;
+.header_wrap{
+  position:fixed;
+  width: 100%;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  h1{
+      text-align:center;
+      background-image: url($url + "logo.png");
+      background-repeat: no-repeat;
+      float: left;
+      width: 87px;
+      height: 17px;
+      text-align: center;
+      align-items: flex-start;
+      span {
+          position: absolute;
+          clip: rect(0 0 0 0);
+          overflow: hidden;
+        }
+  }
+}
+.header_inner {
+  box-sizing: border-box;
+  padding: 0 30px;
+  width: 100%;
+  max-width: 1600px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

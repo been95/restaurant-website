@@ -1,12 +1,15 @@
 @charset "utf-8";
-$url: "../img/";
+$url: "../images/";
+/* CSS COMMENT */ //  SASS COMMENT
 
 @import "reset";
+
 .allWrap {
-    position: relative;
-    min-width: 1280px;
-    min-height: 100%;
+  position: relative;
+  min-width: 1280px;
+  min-height: 100%;
 }
 
 @import "header";
 @import "home";
+
