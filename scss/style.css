@@ -1,0 +1,97 @@
+/* CSS COMMENT */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: 0;
+  background: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  line-height: 1.4;
+  font-size: 15px;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+fieldset {
+  border: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  color: #333;
+  font-weight: bold;
+}
+
+.blind,
+legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.allWrap {
+  position: relative;
+  min-width: 1280px;
+  min-height: 100%;
+}
+
+header {
+  background-color: aqua;
+}
+
+header .inner {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: yellow;
+  height: 120px;
+  position: relative;
+}
+
+header .h1 {
+  background-image: url("../images/logo.png");
+  height: 44px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  margin: auto;
+}
+
+header .h1 span {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*# sourceMappingURL=style.css.map */

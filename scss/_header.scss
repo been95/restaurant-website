@@ -1,8 +1,23 @@
-
-.visualArea{
-  background-image: url($url + "banner.png");
-  color: #fff;
-      height: 766px;
-      display: block;
-      position: relative;
+header{
+    background-color: aqua;
+    .inner{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: yellow; 
+    height: 120px;
+    position: relative;
+    }
+    .h1{
+        background-image: url($url + "logo.png");
+        height: 44px;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        margin: auto;
+        span {
+            position: absolute;
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
+    }
 }
