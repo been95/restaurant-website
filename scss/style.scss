@@ -10,6 +10,11 @@ $url: "../images/";
   min-height: 100%;
 }
 
+.inner {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
 
 @import "header";
 @import "home";
