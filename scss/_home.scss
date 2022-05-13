@@ -1,0 +1,15 @@
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    height: 764px;
+    display: block;
+    position: relative;
+    .cont{
+        position: absolute;
+        left: 50%;
+        text-align: center;
+        strong{
+            font-size: 70px;
+        }
+    }
+}
