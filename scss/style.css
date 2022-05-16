@@ -274,10 +274,39 @@ header .badges .badge {
 .banner .cont {
   position: absolute;
   left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .banner .cont strong {
   font-size: 70px;
+  color: #424141;
+}
+
+.banner .cont p {
+  color: #666666;
+}
+
+.banner img {
+  position: absolute;
+  left: 50%;
+  top: 266px;
+  -webkit-transform: translate(-50%, 266px);
+          transform: translate(-50%, 266px);
+}
+
+/*awards*/
+/*content_new*/
+.content_new img {
+  margin-left: -10%;
+  margin-top: 144px;
+}
+
+.content_new h3 {
+  font-size: 47px;
+  color: #424141;
+  margin-left: 350px;
 }
 /*# sourceMappingURL=style.css.map */
