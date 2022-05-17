@@ -31,11 +31,15 @@
 
 /*content_new*/
 .content_new{
+    position: relative;
+    background-color: #424141;
     img{
-        margin-left: -10%;
-        margin-top:144px;
+        position: absolute;
+        left: -10%;
+        top:144px;
     }
     h3{
+        position: absolute;
         font-size: 47px;
         color: #424141;
         margin-left: 350px;
