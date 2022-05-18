@@ -25,9 +25,34 @@
         transform:translate(-50%, 266px);
         }
 }
-/*awards*/
+/*premium*/
+.premium{
+    .inner{
+        padding-left: 20px;
+        padding-top:  265px;
+        h3{
+            font-size: 42px;
+            color: #292929;
+            
+        }
+        span{
+            font-size: 16px;
+            color: #6a6a6a;
 
 
+        }
+    }
+    .swiper-container{
+        position:relative;
+        left:220px;
+        width: 880px;
+        height: 430px;
+        background-color: #cccccc;
+        img{
+            display: block;
+        }
+    }
+}
 
 /*content_new*/
 .content_new{
@@ -43,5 +68,9 @@
         font-size: 47px;
         color: #424141;
         margin-left: 350px;
+    }
+    .swiper-prev{
+        width: 100%;
+        height: 40px;
     }
 }
