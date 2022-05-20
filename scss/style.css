@@ -409,5 +409,62 @@ header .badges .badge {
 .content_best .inner h3 {
   text-align: center;
   font-size: 34px;
+  padding-bottom: 100px;
+}
+
+.content_best .inner ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.content_best .inner ul .best_text {
+  margin-top: 25px;
+}
+
+.content_best .inner ul .best_text strong {
+  color: #1d1d1d;
+  font-size: 18px;
+}
+
+.content_best .inner ul .best_text p {
+  color: #7b7b7b;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+/*banner*/
+.content_banner {
+  margin-bottom: 150px;
+  background-image: url("../images/banner_01.png");
+  height: 786px;
+  background-attachment: fixed;
+}
+
+.content_banner .font {
+  text-align: center;
+  padding-top: 266px;
+}
+
+/*content_magazine*/
+.content_magazine h3 {
+  text-align: center;
+  font-size: 34px;
+}
+
+.content_magazine p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+
+.content_magazine ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 160px;
 }
 /*# sourceMappingURL=style.css.map */

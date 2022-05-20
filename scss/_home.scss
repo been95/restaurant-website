@@ -124,6 +124,53 @@
     h3 {
       text-align: center;
       font-size: 34px;
+      padding-bottom: 100px;
     }
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      .best_text {
+        margin-top: 25px;
+        strong {
+          color: #1d1d1d;
+          font-size: 18px;
+        }
+        p {
+          color: #7b7b7b;
+          margin-top: 20px;
+          margin-bottom: 70px;
+        }
+      }
+    }
+  }
+}
+/*banner*/
+.content_banner {
+  margin-bottom: 150px;
+  background-image: url("../images/banner_01.png");
+  height: 786px;
+  background-attachment: fixed;
+  .font {
+    text-align: center;
+    padding-top: 266px;
+  }
+}
+
+/*content_magazine*/
+.content_magazine {
+  h3 {
+    text-align: center;
+    font-size: 34px;
+  }
+  p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 85px;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 160px;
   }
 }
