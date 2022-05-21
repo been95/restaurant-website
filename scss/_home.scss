@@ -174,3 +174,36 @@
     margin-bottom: 160px;
   }
 }
+
+/*content_home*/
+.content_home {
+  .home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .text {
+      padding-top: 25%;
+      strong {
+        color: #292929;
+        font-size: 32px;
+      }
+      p {
+        color: #626262;
+        margin-top: 30px;
+      }
+    }
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 140px;
+    li {
+      img {
+        margin-bottom: 45px;
+      }
+      strong {
+        color: #292929;
+        font-size: 16px;
+      }
+    }
+  }
+}
